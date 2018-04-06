@@ -1,0 +1,1 @@
+Lab 6 taught me: CANNOT call one net from 2 different always blocks. This creates a multi driven net. BAD. 
