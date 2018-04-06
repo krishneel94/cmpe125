@@ -1,3 +1,5 @@
 Lab 6 taught me: CANNOT call one net from 2 different always blocks. This creates a multi driven net. BAD. 
 
 set_property BITSTREAM.General.UnconstrainedPins {Allow} [current_design] <- Times of desperation only. 
+
+Don't forget to instantiate button debouncer....
