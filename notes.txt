@@ -1,3 +1,3 @@
 Lab 6 taught me: CANNOT call one net from 2 different always blocks. This creates a multi driven net. BAD. 
 
-set_property BITSTREAM.General.UnconstrainedPins {Allow} [current_design] <- Needed when you want to use a comparison reg and don't want to assign the pin to any hardware. 
+set_property BITSTREAM.General.UnconstrainedPins {Allow} [current_design] <- Times of desperation only. 
